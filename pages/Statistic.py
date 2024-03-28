@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-# st.image('Raisin.jpg')
 cols1,cols2,cols3=st.columns(3)
 with cols1:
     st.write("")
