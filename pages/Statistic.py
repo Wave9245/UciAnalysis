@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-#st.image('Raisin.jpg')
+# st.image('Raisin.jpg')
 cols1,cols2,cols3=st.columns(3)
 with cols1:
     st.write("")
@@ -29,7 +29,7 @@ st.markdown("")
 st.write("ผลรวม")
 cl1,cl2,cl3,cl4,cl5,cl6,cl7=st.columns(7)
 cl1.write(dt['Area'].sum())
-cl2.write(dt['MajorAxisLength'].sum())
+cl2.write(dt['MajorAxisLength'].sum(5))
 cl3.write(dt['MinorAxisLength'].sum())
 cl4.write(dt['Eccentricity'].sum())
 cl5.write(dt['ConvexArea'].sum())
