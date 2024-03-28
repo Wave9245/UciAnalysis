@@ -2,7 +2,6 @@ import pandas as pd
 dt=pd.read_csv('./data/Raisin_Dataset.csv')
 
 st.subheader("สถิติข้อมูลลูกเกต")
-st.write(df.head(10))
 st.write("ผลรวม")
 cl1,cl2,cl3,cl4,cl5,cl6,cl7=st.columns(7)
 cl1.write(dt['Area'].sum())
