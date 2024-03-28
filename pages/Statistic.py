@@ -14,4 +14,3 @@ cl4.write(dt['Eccentricity'].sum())
 cl5.write(dt['ConvexArea'].sum())
 cl6.write(dt['Extent'].sum())
 cl7.write(dt['Perimeter'].sum())
-
