@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 dt=pd.read_csv('./data/Raisin_Dataset.csv')
+st.write(df.head(10))
+st.write(dt.describe)
 
 st.subheader("สถิติข้อมูลลูกเกต")
 st.write("ผลรวม")
