@@ -4,7 +4,7 @@ import pandas as pd
 st.image('Raisin.jpg')
 cols1,cols2,cols3=st.columns(3)
 with cols1:
-with cols2:
+with cols2: 
     st.image('Raisin.jpg')
 with cols3: 
 dt=pd.read_csv('./data/Raisin_Dataset.csv')
