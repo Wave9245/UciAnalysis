@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 dt=pd.read_csv('./data/Raisin_Dataset.csv')
 st.write(dt.head(7))
-st.write(dt.describe)
 
 st.subheader("สถิติข้อมูลลูกเกต")
 st.write("ผลรวม")
@@ -14,3 +13,4 @@ cl4.write(dt['Eccentricity'].sum())
 cl5.write(dt['ConvexArea'].sum())
 cl6.write(dt['Extent'].sum())
 cl7.write(dt['Perimeter'].sum())
+
