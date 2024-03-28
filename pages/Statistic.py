@@ -1,5 +1,7 @@
 import streamlit as st
 import pandas as pd
+
+st.image('Raisin.jpg')
 dt=pd.read_csv('./data/Raisin_Dataset.csv')
 html_1 = """
 <div style="background-color:#52BE80;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
