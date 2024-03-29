@@ -16,7 +16,7 @@ st.write(df.head(10))
 
 #st.line_chart(df)
 #st.line_chart(df, x="interest_rate", y="unemployment_rate", color="stock_index_price")
-st.subheader("กราฟแสดงข้อมูลด้วยเทคนิค stock index price")
+st.subheader("กราฟแสดงข้อมูลด้วยเทคนิค (br) stock index price")
 
 st.line_chart(
    df, x="interest_rate", y=["stock_index_price"], color=["#0000FF"]  # Optional
