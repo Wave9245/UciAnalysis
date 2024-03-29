@@ -23,6 +23,6 @@ st.page_link("pages/1🧮 Statistic.py", label="การนำเสนอข�
 st.page_link("pages/2📊 Chart.py", label="การนำเสนอข้อมูลลูกเกตด้วยจินตทัศน์ข้อมูล", icon="2️⃣", disabled=False)
 st.page_link("pages/3🎡 KNNClasssifi.py", label="การจำแนกข้อมูลด้วยเทคนิค KNN", icon="3️⃣", disabled=False)
 st.page_link("pages/4🌳 Decisiontree.py", label="การจำแนกข้อมูลด้วยเทคนิค Decisiontree", icon="4️⃣", disabled=False)
-st.page_link("pages/5☝️ NaivegayeClassify.py", label="การจำแนกข้อมูลด้วยเทคนิค NaiveBayes", icon="4️⃣", disabled=False)
-st.page_link("pages/6📈 RegressionOrediction.py", label="การจำแนกข้อมูลด้วยเทคนิค Regression", icon="4️⃣", disabled=False)
+st.page_link("pages/5📩 NaivegayeClassify.py", label="การจำแนกข้อมูลด้วยเทคนิค NaiveBayes", icon="5️⃣", disabled=False)
+st.page_link("pages/6📈 RegressionOrediction.py", label="การจำแนกข้อมูลด้วยเทคนิค Regression", icon="4️5️6️⃣", disabled=False)
 st.page_link("http://www.google.com", label="Google", icon="🌎")
