@@ -34,7 +34,7 @@ x1=st.number_input("กรุณาป้อนข้อมูล interest_rate:
 x2=st.number_input("กรุณาป้อนข้อมูล unemployment_rate:")
 
 html_1 = """
-<div style="background-color:#FFBF00;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
+<div style="background-color:#76D7C4;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
 <center><h5>การพยากรณ์ข้อมูล stock index price ด้วยเทคนิค Linear Regression</h5></center>
 </div>
 """
