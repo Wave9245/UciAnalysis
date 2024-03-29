@@ -11,7 +11,7 @@ df = pd.read_csv("./data/iris.csv")
 X = df.drop('variety',axis=1)
 y = df['variety']
 
-st.image("./pic/iris.jpg")
+st.image("./pic/iris.png")
 html_1 = """
 <div style="background-color:#FFBF00;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
 <center><h5>การทำนายข้อมูลดอกไม้ด้วยเทคนิค Naive Bayes</h5></center>
