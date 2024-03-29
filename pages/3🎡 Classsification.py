@@ -83,8 +83,8 @@ if st.button("ทำนายผล"):
       st.image("./pic/iris1.jpg")
       st.header("ไม่เป็นมะเร็ง")
    else:
-      st.image("./pic/iris3.jpg")  
+      st.image("./pic/iris2.jpg")  
       st.header("เป็นมะเร็ง")
-   st.button("ไม่ทำนายผล")
+      st.button("ไม่ทำนายผล")
 else :
     st.button("ไม่ทำนายผล")
