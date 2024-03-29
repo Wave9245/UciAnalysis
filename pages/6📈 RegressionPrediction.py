@@ -43,13 +43,7 @@ html_1 = """
 st.markdown(html_1, unsafe_allow_html=True)
 st.markdown("") 
 
-html_2 = """
-<div sborder-radius:15px 15px 15px 15px;">
-<center>st.image("./pic/predict.jpg")</center>
-</div>
-"""
-st.markdown(html_2, unsafe_allow_html=True)
-st.markdown("") 
+st.image("./pic/predict.jpg")
 if st.button("พยากรณ์ข้อมูล"):
     x_input=[[x1,x2]]
     y_predict=modelRegress.predict(pf.fit_transform(x_input))
