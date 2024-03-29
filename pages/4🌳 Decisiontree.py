@@ -7,6 +7,13 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
+cl1,cl2,cl3=st.column(3)
+with cl1:
+    st.image('./pic/Setosa.jpg')
+with cl2:
+    st.image('./pic/Setosa.jpg')
+with cl3:
+    st.image('./pic/virsicolor.jpg')
 st.header("Decision Tree for classification")
 df = pd.read_csv("./data/iris.csv")
 st.write(df.head(10))
@@ -28,14 +35,13 @@ if st.button("พยากรณ์"):
     y_predict2=dtree.predict(x_input)
     if y_predict2=='Setosa':
         st.image('./pic/Setosa.jpg')
-
+        st.write(y_predict2)
     elif y_predict2=='virginica':
         st.image('./pic/Setosa.jpg')
-
+        st.write(y_predict2)
     else: 
         st.image('./pic/virsicolor.jpg')
-
-    st.write(y_predict2)
+        st.write(y_predict2)
     st.button("ไม่พยากรณ์")
 else:
     st.button("ไม่พยากรณ์")
