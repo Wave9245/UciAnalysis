@@ -28,13 +28,13 @@ if st.button("พยากรณ์"):
     y_predict2=dtree.predict(x_input)
     if y_predict2=='Setosa':
         st.image('./pic/Setosa.jpg')
-        st.write(y_predict2)
+
     elif y_predict2=='virginica':
         st.image('./pic/Setosa.jpg')
-        st.write(y_predict2)
+
     else: 
         st.image('./pic/virsicolor.jpg')
-        st.write(y_predict2)
+
     st.write(y_predict2)
     st.button("ไม่พยากรณ์")
 else:
