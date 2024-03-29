@@ -14,6 +14,7 @@ st.header("การพยากรณ์ข้อมูลด้วยเทค
 df=pd.read_csv('./data/stock_index_price.csv')
 st.write(df.head(10))
 
+st.image("./pic/stock.jpg")
 #st.line_chart(df)
 #st.line_chart(df, x="interest_rate", y="unemployment_rate", color="stock_index_price")
 st.subheader("กราฟแสดงข้อมูลด้วยเทคนิค stock index price")
