@@ -11,7 +11,7 @@ cl1,cl2,cl3=st.columns(3)
 with cl1:
     st.image('./pic/Setosa.jpg')
 with cl2:
-    st.image('./pic/Setosa.jpg')
+    st.image('./pic/virginica.jpg')
 with cl3:
     st.image('./pic/virsicolor.jpg')
 st.header("Decision Tree for classification")
@@ -37,7 +37,7 @@ if st.button("พยากรณ์"):
         st.image('./pic/Setosa.jpg')
         st.write(y_predict2)
     elif y_predict2=='virginica':
-        st.image('./pic/Setosa.jpg')
+        st.image('./pic/virginica.jpg')
         st.write(y_predict2)
     else: 
         st.image('./pic/virsicolor.jpg')
