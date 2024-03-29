@@ -12,6 +12,8 @@ lottie_url_hello = "https://lottie.host/2d2d7006-68cf-4306-90dc-468179c7fd16/Nku
 lottie_hello = load_lottieurl(lottie_url_hello)
 st_lottie(lottie_hello)
 
+st_การประยุกต์ใช้งาน Machine learning บนเว็บ
+
 st.page_link("Home.py", label="หน้าแรก", icon="🏠")
 st.page_link("pages/1🧮 Statistic.py", label="การนำเสนอข้อมูลลูกเกตด้วยสถิติ", icon="1️⃣")
 st.page_link("pages/2📊 Chart.py", label="การนำเสนอข้อมูลลูกเกตด้วยจินตทัศน์ข้อมูล", icon="2️⃣", disabled=False)
