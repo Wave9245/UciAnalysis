@@ -32,7 +32,7 @@ if st.button("พยากรณ์"):
     elif y_predict2=='virginica':
         st.image('./pic/Setosa.jpg')
         st.write(y_predict2)
-    elif y_predict2=='virsicolor':
+    else y_predict2=='virsicolor':
         st.image('./pic/virsicolor.jpg')
         st.write(y_predict2)
     st.write(y_predict2)
