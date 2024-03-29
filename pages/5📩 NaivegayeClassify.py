@@ -16,7 +16,7 @@ html_1 = """
 <center><h5>การทำนายข้อมูลดอกไม้ด้วยเทคนิค Naive Bayes</h5></center>
 </div>
 """
-st.markdown(html_2, unsafe_allow_html=True)
+st.markdown(html_1, unsafe_allow_html=True)
 st.markdown("") 
 
 # แบ่งข้อมูลเป็นชุดฝึกและชุดทดสอบ
